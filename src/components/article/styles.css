@@ -1,0 +1,26 @@
+a {
+  transform-origin: center;
+  color: wheat;
+}
+
+a:visited {
+  color: wheat;
+}
+
+a:active {
+  transform: scale(0.98);
+}
+
+.post {
+  display: block;
+  background-color: black;
+  color: wheat;
+  cursor: pointer;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 100px;
+  margin-right: 100px;
+}

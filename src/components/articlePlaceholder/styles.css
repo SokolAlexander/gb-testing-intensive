@@ -1,0 +1,12 @@
+.post-empty {
+  background-color: black;
+  color: wheat;
+  min-height: 200px;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 100px;
+  margin-right: 100px;
+}
