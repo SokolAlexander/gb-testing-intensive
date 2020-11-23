@@ -4,6 +4,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { setName } from '../../store/user/actions';
 import { usePrevious } from '../../utils/hooks';
 import './styles.css';
+import Toast from './toast';
 
 export default function UserInfo() {
   const name = useSelector(state => state.user.name);
@@ -11,6 +12,14 @@ export default function UserInfo() {
   const [value, setValue] = useState(name);
   const [show, setShow] = useState(false);
   const dispatch = useDispatch();
+
+  const handleShowMessage = useCallback(() => {
+    setShow(true);
+  }, []);
+
+  const handleHideMessage = useCallback(() => {
+    setShow(false);
+  }, []);
 
   const handleChange = useCallback((e) => {
     setValue(e.target.value);
@@ -33,7 +42,7 @@ export default function UserInfo() {
     }, 3000);
 
     return () => clearTimeout(timeout);
-  }, [show])
+  }, [show]);
 
   return (
     <>
@@ -41,7 +50,7 @@ export default function UserInfo() {
         <input type="text" value={value} onChange={handleChange} />
         <button type='submit' onClick={handleSave}>Save</button>
       </form>
-      {show && <div className="toast">Name Successfully Updated</div>}
+      <Toast show={show} onHide={handleHideMessage} />
     </>
   )
 }
