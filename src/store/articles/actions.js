@@ -1,11 +1,11 @@
 import * as types from "./types";
 
-export const getArticles = (count) => ({
-  type: types.GET_ARTICLES,
-  payload: {
-    count,
-  },
-});
+// export const getArticles = (count) => ({
+//   type: types.GET_ARTICLES,
+//   payload: {
+//     count,
+//   },
+// });
 
 export const getArticlesRequest = () => ({
   type: types.GET_ARTICLES_REQUEST,
@@ -26,7 +26,7 @@ export const getArticlesFailure = (error) => ({
 });
 
 export const toggleFavourite = (id) => ({
-  type: types.TOGGLE_FAVOURITE,
+  type: types.TOGGLE_FAVOURITES,
   payload: {
     id
   }

@@ -4,3 +4,5 @@ export const REQUEST_STATUS = {
   SUCCESS: 2,
   FAILURE: 3
 }
+
+export const apiUrl = 'https://spaceflightnewsapi.net/api/v2/articles/';

@@ -1,5 +1,13 @@
-.header {
+header.header {
+  padding: 15px;
+  padding-top: 20px;
+  padding-bottom: 25px;
+/* margin: 0; */
   font-size: large;
   color: whitesmoke;
   background-color: darkslategray;
+}
+
+ul {
+  margin-bottom: 0;
 }

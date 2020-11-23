@@ -1,0 +1,13 @@
+.toast {
+  position: fixed;
+  left: 30%;
+  bottom: 150px;
+  width: 30%;
+  height: 150px;
+  border: 3px solid sandybrown;
+  margin: auto;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+}

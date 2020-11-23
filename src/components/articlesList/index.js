@@ -1,7 +1,15 @@
 import React from 'react';
+import { connect } from 'react-redux';
+
+import { getArticles } from '../../store/articles/middleware';
 import Article from '../article';
 
-export default class ArticlesList extends React.Component {
+class ArticlesList extends React.Component {
+  componentDidMount() {
+    console.log('---------', this.props);
+    this.props.getArticles();
+  }
+
   renderArticle(article) {
     return (
       <Article
@@ -13,6 +21,7 @@ export default class ArticlesList extends React.Component {
 
   render() {
     const { articles } = this.props;
+    console.log(articles);
 
     return (
       <article>
@@ -21,3 +30,13 @@ export default class ArticlesList extends React.Component {
     )
   }
 }
+
+const mapStateToProps = state => ({
+  articles: state.articles.articles
+});
+
+const mapDispatchToProps = {
+  getArticles,
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(ArticlesList);
