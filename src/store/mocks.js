@@ -16,7 +16,4 @@ const mockState = {
 
 const store = configureStore([thunk]);
 
-export const mockStore = store((state = mockState, action) => {
-  console.log(action);
-  return mockState
-});
+export const mockStore = store(() => mockState);

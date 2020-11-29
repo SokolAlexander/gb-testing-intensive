@@ -15,4 +15,9 @@ describe("reducer test", () => {
     const received = reducer(undefined, getArticlesRequest());
     expect(received).toEqual(expected);
   });
+
+  it('matches snapshot after getArticles request', () => {
+    const received = reducer(undefined, getArticlesRequest());
+    expect(received).toMatchSnapshot();
+  });
 });

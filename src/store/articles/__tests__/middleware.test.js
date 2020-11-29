@@ -6,12 +6,12 @@ describe('getArticles test', () => {
   it('dispatches success action on success fetch', async () => {
     const articles = [{id: 1}, {id: 2}];
 
+    const dispatch = jest.fn();
     // eslint-disable-next-line no-undef
     fetchMock.mockOnce(JSON.stringify(articles));
-    await getArticles()(mockStore.dispatch);
+    await getArticles()(dispatch);
 
-    const actions = mockStore.getActions();
-    expect(actions[actions.length - 1]).toEqual(getArticlesSuccess(articles));
+    expect(dispatch).toHaveBeenCalledWith(getArticlesSuccess(articles))
   });
 
   it("dispatches success action on failure fetch", async () => {

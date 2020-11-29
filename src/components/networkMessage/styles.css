@@ -1,0 +1,7 @@
+.offline {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  border: 1px solid rosybrown;
+  padding: 10px;
+}

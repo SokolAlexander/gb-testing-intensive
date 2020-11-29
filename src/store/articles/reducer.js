@@ -6,7 +6,7 @@ const initialState = {
   request: {
     status: REQUEST_STATUS.IDLE,
     error: null,
-  }
+  },
 }
 
 export default function reducer(state = initialState, action) {

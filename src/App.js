@@ -7,22 +7,26 @@ import ArticlesList from './components/articlesList';
 import Header from './components/header';
 import UserInfo from './components/user';
 import './App.css';
+import NetworkMessage from './components/networkMessage';
 
 function App() {
   return (
-    <Provider store={store}>
-      <Router>
-      <Header />
-      <Switch>
-        <Route exact path="/">
-          <ArticlesList />
-        </Route>
-        <Route path="/user">
-          <UserInfo />
-        </Route>
-      </Switch>
-      </Router>
-    </Provider>
+    <>
+      <NetworkMessage />
+      <Provider store={store}>
+        <Router>
+        <Header />
+        <Switch>
+          <Route exact path="/">
+            <ArticlesList />
+          </Route>
+          <Route path="/user">
+            <UserInfo />
+          </Route>
+        </Switch>
+        </Router>
+      </Provider>
+    </>
   );
 }
 

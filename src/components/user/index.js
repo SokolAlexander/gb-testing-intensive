@@ -13,15 +13,12 @@ export default function UserInfo() {
   const [show, setShow] = useState(false);
   const dispatch = useDispatch();
 
-  const handleShowMessage = useCallback(() => {
-    setShow(true);
-  }, []);
-
   const handleHideMessage = useCallback(() => {
     setShow(false);
   }, []);
 
   const handleChange = useCallback((e) => {
+    console.log(e);
     setValue(e.target.value);
   }, []);
 
@@ -35,14 +32,6 @@ export default function UserInfo() {
       setShow(true);
     }
   }, [name, prevName]);
-
-  useEffect(() => {
-    const timeout = setTimeout(() => {
-      setShow(false);
-    }, 3000);
-
-    return () => clearTimeout(timeout);
-  }, [show]);
 
   return (
     <>

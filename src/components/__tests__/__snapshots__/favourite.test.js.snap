@@ -1,85 +1,19 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`article tests snapshot tests matches snapshot with article 1`] = `
+exports[`Favourite tests matches snapshot when fav 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <a
-        class="post"
-        href="/"
-      >
-        <div
-          class="header"
-        >
-          Title
-        </div>
-        <div
-          class="imageWrapper"
-        >
-          <img
-            alt="Title"
-            class="image"
-            src="imageUrl"
-          />
-        </div>
-        <div
-          class="summary"
-        >
-          long text
-        </div>
-        <div
-          class="bottom"
-        >
-          <div
-            class="source"
-          >
-            some news
-          </div>
-          <div
-            class="date"
-          />
-        </div>
-      </a>
+      <button>
+        -
+      </button>
     </div>
   </body>,
   "container": <div>
-    <a
-      class="post"
-      href="/"
-    >
-      <div
-        class="header"
-      >
-        Title
-      </div>
-      <div
-        class="imageWrapper"
-      >
-        <img
-          alt="Title"
-          class="image"
-          src="imageUrl"
-        />
-      </div>
-      <div
-        class="summary"
-      >
-        long text
-      </div>
-      <div
-        class="bottom"
-      >
-        <div
-          class="source"
-        >
-          some news
-        </div>
-        <div
-          class="date"
-        />
-      </div>
-    </a>
+    <button>
+      -
+    </button>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],
@@ -135,80 +69,20 @@ Object {
 }
 `;
 
-exports[`article tests snapshot tests matches snapshot with no article 1`] = `
+exports[`Favourite tests matches snapshot when not fav 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <div
-        class="post-empty"
-      >
-        <div
-          class="header"
-        >
-          HEADER OF THE TITLE
-        </div>
-        <div
-          class="image"
-        >
-          IMAGE WILL GO HERE
-        </div>
-        <div
-          class="summary"
-        >
-          SUMMARY
-        </div>
-        <div
-          class="bottom"
-        >
-          <div
-            class="source"
-          >
-            SOURCE
-          </div>
-          <div
-            class="date"
-          >
-            DATE
-          </div>
-        </div>
-      </div>
+      <button>
+        +
+      </button>
     </div>
   </body>,
   "container": <div>
-    <div
-      class="post-empty"
-    >
-      <div
-        class="header"
-      >
-        HEADER OF THE TITLE
-      </div>
-      <div
-        class="image"
-      >
-        IMAGE WILL GO HERE
-      </div>
-      <div
-        class="summary"
-      >
-        SUMMARY
-      </div>
-      <div
-        class="bottom"
-      >
-        <div
-          class="source"
-        >
-          SOURCE
-        </div>
-        <div
-          class="date"
-        >
-          DATE
-        </div>
-      </div>
-    </div>
+    <button>
+      +
+    </button>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],
