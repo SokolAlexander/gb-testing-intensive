@@ -45,8 +45,5 @@
     "@testing-library/react-hooks": "^3.4.2",
     "jest-fetch-mock": "^3.0.3",
     "react-test-renderer": "^17.0.1"
-  },
-  "jest": {
-    "collectCoverageFrom" : ["src/components/favourite/index.js", "!src/reportWebVitals.js"]
   }
 }
