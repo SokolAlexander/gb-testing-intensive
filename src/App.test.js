@@ -8,4 +8,9 @@ describe('App tests', () => {
     const component = render(<App />);
     expect(component).toMatchSnapshot();
   });
+
+  it("matches snapshot2", () => {
+    const component = render(<App />);
+    expect(component).toMatchSnapshot();
+  });
 });
