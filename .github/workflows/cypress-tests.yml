@@ -10,3 +10,4 @@ jobs:
       - uses: cypress-io/github-action@v2
         with:
           browser: chrome
+          start: npm run start
