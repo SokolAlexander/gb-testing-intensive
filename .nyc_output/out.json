@@ -1,0 +1,2889 @@
+{
+  "/Users/anduser/Documents/GB/gb-test/src/constants.js": {
+    "path": "/Users/anduser/Documents/GB/gb-test/src/constants.js",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 1,
+          "column": 30
+        },
+        "end": {
+          "line": 6,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 8,
+          "column": 22
+        },
+        "end": {
+          "line": 8,
+          "column": 71
+        }
+      }
+    },
+    "fnMap": {},
+    "branchMap": {},
+    "s": {
+      "0": 5,
+      "1": 5
+    },
+    "f": {},
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "0b06b64796eabf8d531febf96a9807866d627c9b"
+  },
+  "/Users/anduser/Documents/GB/gb-test/src/store/articles/types.js": {
+    "path": "/Users/anduser/Documents/GB/gb-test/src/store/articles/types.js",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 1,
+          "column": 28
+        },
+        "end": {
+          "line": 1,
+          "column": 52
+        }
+      },
+      "1": {
+        "start": {
+          "line": 2,
+          "column": 36
+        },
+        "end": {
+          "line": 2,
+          "column": 68
+        }
+      },
+      "2": {
+        "start": {
+          "line": 3,
+          "column": 36
+        },
+        "end": {
+          "line": 3,
+          "column": 68
+        }
+      },
+      "3": {
+        "start": {
+          "line": 4,
+          "column": 36
+        },
+        "end": {
+          "line": 4,
+          "column": 68
+        }
+      },
+      "4": {
+        "start": {
+          "line": 6,
+          "column": 33
+        },
+        "end": {
+          "line": 6,
+          "column": 62
+        }
+      }
+    },
+    "fnMap": {},
+    "branchMap": {},
+    "s": {
+      "0": 5,
+      "1": 5,
+      "2": 5,
+      "3": 5,
+      "4": 5
+    },
+    "f": {},
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "65e32f63d2c7e27ae8b9cc506ebb74c08d0e8888"
+  },
+  "/Users/anduser/Documents/GB/gb-test/src/store/articles/reducer.js": {
+    "path": "/Users/anduser/Documents/GB/gb-test/src/store/articles/reducer.js",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 4,
+          "column": 21
+        },
+        "end": {
+          "line": 10,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 13,
+          "column": 2
+        },
+        "end": {
+          "line": 54,
+          "column": 3
+        }
+      },
+      "2": {
+        "start": {
+          "line": 14,
+          "column": 37
+        },
+        "end": {
+          "line": 20,
+          "column": 6
+        }
+      },
+      "3": {
+        "start": {
+          "line": 21,
+          "column": 37
+        },
+        "end": {
+          "line": 27,
+          "column": 6
+        }
+      },
+      "4": {
+        "start": {
+          "line": 28,
+          "column": 37
+        },
+        "end": {
+          "line": 34,
+          "column": 6
+        }
+      },
+      "5": {
+        "start": {
+          "line": 36,
+          "column": 26
+        },
+        "end": {
+          "line": 36,
+          "column": 45
+        }
+      },
+      "6": {
+        "start": {
+          "line": 37,
+          "column": 20
+        },
+        "end": {
+          "line": 37,
+          "column": 77
+        }
+      },
+      "7": {
+        "start": {
+          "line": 37,
+          "column": 52
+        },
+        "end": {
+          "line": 37,
+          "column": 76
+        }
+      },
+      "8": {
+        "start": {
+          "line": 39,
+          "column": 6
+        },
+        "end": {
+          "line": 41,
+          "column": 7
+        }
+      },
+      "9": {
+        "start": {
+          "line": 40,
+          "column": 8
+        },
+        "end": {
+          "line": 40,
+          "column": 20
+        }
+      },
+      "10": {
+        "start": {
+          "line": 43,
+          "column": 6
+        },
+        "end": {
+          "line": 46,
+          "column": 7
+        }
+      },
+      "11": {
+        "start": {
+          "line": 48,
+          "column": 6
+        },
+        "end": {
+          "line": 51,
+          "column": 7
+        }
+      },
+      "12": {
+        "start": {
+          "line": 53,
+          "column": 13
+        },
+        "end": {
+          "line": 53,
+          "column": 26
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "reducer",
+        "decl": {
+          "start": {
+            "line": 12,
+            "column": 24
+          },
+          "end": {
+            "line": 12,
+            "column": 31
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 12,
+            "column": 62
+          },
+          "end": {
+            "line": 55,
+            "column": 1
+          }
+        },
+        "line": 12
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 37,
+            "column": 42
+          },
+          "end": {
+            "line": 37,
+            "column": 43
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 37,
+            "column": 52
+          },
+          "end": {
+            "line": 37,
+            "column": 76
+          }
+        },
+        "line": 37
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 12,
+            "column": 32
+          },
+          "end": {
+            "line": 12,
+            "column": 52
+          }
+        },
+        "type": "default-arg",
+        "locations": [
+          {
+            "start": {
+              "line": 12,
+              "column": 40
+            },
+            "end": {
+              "line": 12,
+              "column": 52
+            }
+          }
+        ],
+        "line": 12
+      },
+      "1": {
+        "loc": {
+          "start": {
+            "line": 13,
+            "column": 2
+          },
+          "end": {
+            "line": 54,
+            "column": 3
+          }
+        },
+        "type": "switch",
+        "locations": [
+          {
+            "start": {
+              "line": 14,
+              "column": 4
+            },
+            "end": {
+              "line": 20,
+              "column": 6
+            }
+          },
+          {
+            "start": {
+              "line": 21,
+              "column": 4
+            },
+            "end": {
+              "line": 27,
+              "column": 6
+            }
+          },
+          {
+            "start": {
+              "line": 28,
+              "column": 4
+            },
+            "end": {
+              "line": 34,
+              "column": 6
+            }
+          },
+          {
+            "start": {
+              "line": 35,
+              "column": 4
+            },
+            "end": {
+              "line": 52,
+              "column": 5
+            }
+          },
+          {
+            "start": {
+              "line": 53,
+              "column": 4
+            },
+            "end": {
+              "line": 53,
+              "column": 26
+            }
+          }
+        ],
+        "line": 13
+      },
+      "2": {
+        "loc": {
+          "start": {
+            "line": 39,
+            "column": 6
+          },
+          "end": {
+            "line": 41,
+            "column": 7
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 39,
+              "column": 6
+            },
+            "end": {
+              "line": 41,
+              "column": 7
+            }
+          },
+          {
+            "start": {
+              "line": 39,
+              "column": 6
+            },
+            "end": {
+              "line": 41,
+              "column": 7
+            }
+          }
+        ],
+        "line": 39
+      }
+    },
+    "s": {
+      "0": 5,
+      "1": 25,
+      "2": 5,
+      "3": 5,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 15
+    },
+    "f": {
+      "0": 25,
+      "1": 0
+    },
+    "b": {
+      "0": [
+        15
+      ],
+      "1": [
+        5,
+        5,
+        0,
+        0,
+        15
+      ],
+      "2": [
+        0,
+        0
+      ]
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "75ce66fdbd092d95d51da79d95e5264189867680"
+  },
+  "/Users/anduser/Documents/GB/gb-test/src/store/user/types.js": {
+    "path": "/Users/anduser/Documents/GB/gb-test/src/store/user/types.js",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 1,
+          "column": 24
+        },
+        "end": {
+          "line": 1,
+          "column": 40
+        }
+      }
+    },
+    "fnMap": {},
+    "branchMap": {},
+    "s": {
+      "0": 5
+    },
+    "f": {},
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "79f01a75172c0a742ac08a7ddae6b60858838fc6"
+  },
+  "/Users/anduser/Documents/GB/gb-test/src/store/user/reducer.js": {
+    "path": "/Users/anduser/Documents/GB/gb-test/src/store/user/reducer.js",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 3,
+          "column": 21
+        },
+        "end": {
+          "line": 5,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 8,
+          "column": 2
+        },
+        "end": {
+          "line": 16,
+          "column": 3
+        }
+      },
+      "2": {
+        "start": {
+          "line": 10,
+          "column": 6
+        },
+        "end": {
+          "line": 13,
+          "column": 8
+        }
+      },
+      "3": {
+        "start": {
+          "line": 15,
+          "column": 6
+        },
+        "end": {
+          "line": 15,
+          "column": 19
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "reducer",
+        "decl": {
+          "start": {
+            "line": 7,
+            "column": 24
+          },
+          "end": {
+            "line": 7,
+            "column": 31
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 62
+          },
+          "end": {
+            "line": 17,
+            "column": 1
+          }
+        },
+        "line": 7
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 32
+          },
+          "end": {
+            "line": 7,
+            "column": 52
+          }
+        },
+        "type": "default-arg",
+        "locations": [
+          {
+            "start": {
+              "line": 7,
+              "column": 40
+            },
+            "end": {
+              "line": 7,
+              "column": 52
+            }
+          }
+        ],
+        "line": 7
+      },
+      "1": {
+        "loc": {
+          "start": {
+            "line": 8,
+            "column": 2
+          },
+          "end": {
+            "line": 16,
+            "column": 3
+          }
+        },
+        "type": "switch",
+        "locations": [
+          {
+            "start": {
+              "line": 9,
+              "column": 4
+            },
+            "end": {
+              "line": 13,
+              "column": 8
+            }
+          },
+          {
+            "start": {
+              "line": 14,
+              "column": 4
+            },
+            "end": {
+              "line": 15,
+              "column": 19
+            }
+          }
+        ],
+        "line": 8
+      }
+    },
+    "s": {
+      "0": 5,
+      "1": 25,
+      "2": 0,
+      "3": 25
+    },
+    "f": {
+      "0": 25
+    },
+    "b": {
+      "0": [
+        15
+      ],
+      "1": [
+        0,
+        25
+      ]
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "ce682b683d444fa9dd3c671d787a7a6f4ae37326"
+  },
+  "/Users/anduser/Documents/GB/gb-test/src/store/index.js": {
+    "path": "/Users/anduser/Documents/GB/gb-test/src/store/index.js",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "d9d3c09335c9508c19630eb36afad80d629afc62"
+  },
+  "/Users/anduser/Documents/GB/gb-test/src/store/articles/actions.js": {
+    "path": "/Users/anduser/Documents/GB/gb-test/src/store/articles/actions.js",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 10,
+          "column": 34
+        },
+        "end": {
+          "line": 12,
+          "column": 2
+        }
+      },
+      "1": {
+        "start": {
+          "line": 10,
+          "column": 41
+        },
+        "end": {
+          "line": 12,
+          "column": 1
+        }
+      },
+      "2": {
+        "start": {
+          "line": 14,
+          "column": 34
+        },
+        "end": {
+          "line": 19,
+          "column": 2
+        }
+      },
+      "3": {
+        "start": {
+          "line": 14,
+          "column": 49
+        },
+        "end": {
+          "line": 19,
+          "column": 1
+        }
+      },
+      "4": {
+        "start": {
+          "line": 21,
+          "column": 34
+        },
+        "end": {
+          "line": 26,
+          "column": 2
+        }
+      },
+      "5": {
+        "start": {
+          "line": 21,
+          "column": 46
+        },
+        "end": {
+          "line": 26,
+          "column": 1
+        }
+      },
+      "6": {
+        "start": {
+          "line": 28,
+          "column": 31
+        },
+        "end": {
+          "line": 33,
+          "column": 2
+        }
+      },
+      "7": {
+        "start": {
+          "line": 28,
+          "column": 40
+        },
+        "end": {
+          "line": 33,
+          "column": 1
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 10,
+            "column": 34
+          },
+          "end": {
+            "line": 10,
+            "column": 35
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 41
+          },
+          "end": {
+            "line": 12,
+            "column": 1
+          }
+        },
+        "line": 10
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 14,
+            "column": 34
+          },
+          "end": {
+            "line": 14,
+            "column": 35
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 14,
+            "column": 49
+          },
+          "end": {
+            "line": 19,
+            "column": 1
+          }
+        },
+        "line": 14
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 21,
+            "column": 34
+          },
+          "end": {
+            "line": 21,
+            "column": 35
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 21,
+            "column": 46
+          },
+          "end": {
+            "line": 26,
+            "column": 1
+          }
+        },
+        "line": 21
+      },
+      "3": {
+        "name": "(anonymous_3)",
+        "decl": {
+          "start": {
+            "line": 28,
+            "column": 31
+          },
+          "end": {
+            "line": 28,
+            "column": 32
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 28,
+            "column": 40
+          },
+          "end": {
+            "line": 33,
+            "column": 1
+          }
+        },
+        "line": 28
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 5,
+      "1": 5,
+      "2": 5,
+      "3": 5,
+      "4": 5,
+      "5": 0,
+      "6": 5,
+      "7": 0
+    },
+    "f": {
+      "0": 5,
+      "1": 5,
+      "2": 0,
+      "3": 0
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "3b2808d08faada2b0178de65aae6419da58931b4"
+  },
+  "/Users/anduser/Documents/GB/gb-test/src/store/articles/middleware.js": {
+    "path": "/Users/anduser/Documents/GB/gb-test/src/store/articles/middleware.js",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 4,
+          "column": 27
+        },
+        "end": {
+          "line": 13,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 4,
+          "column": 33
+        },
+        "end": {
+          "line": 13,
+          "column": 1
+        }
+      },
+      "2": {
+        "start": {
+          "line": 5,
+          "column": 2
+        },
+        "end": {
+          "line": 5,
+          "column": 33
+        }
+      },
+      "3": {
+        "start": {
+          "line": 6,
+          "column": 2
+        },
+        "end": {
+          "line": 12,
+          "column": 3
+        }
+      },
+      "4": {
+        "start": {
+          "line": 7,
+          "column": 16
+        },
+        "end": {
+          "line": 7,
+          "column": 35
+        }
+      },
+      "5": {
+        "start": {
+          "line": 8,
+          "column": 21
+        },
+        "end": {
+          "line": 8,
+          "column": 37
+        }
+      },
+      "6": {
+        "start": {
+          "line": 9,
+          "column": 4
+        },
+        "end": {
+          "line": 9,
+          "column": 43
+        }
+      },
+      "7": {
+        "start": {
+          "line": 11,
+          "column": 4
+        },
+        "end": {
+          "line": 11,
+          "column": 35
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 4,
+            "column": 27
+          },
+          "end": {
+            "line": 4,
+            "column": 28
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 33
+          },
+          "end": {
+            "line": 13,
+            "column": 1
+          }
+        },
+        "line": 4
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 4,
+            "column": 33
+          },
+          "end": {
+            "line": 4,
+            "column": 34
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 53
+          },
+          "end": {
+            "line": 13,
+            "column": 1
+          }
+        },
+        "line": 4
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 5,
+      "1": 5,
+      "2": 5,
+      "3": 5,
+      "4": 5,
+      "5": 5,
+      "6": 5,
+      "7": 0
+    },
+    "f": {
+      "0": 5,
+      "1": 5
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "40141508df904ba4d6ad2b32a73a541748d65e9c"
+  },
+  "/Users/anduser/Documents/GB/gb-test/src/components/articlePlaceholder/index.js": {
+    "path": "/Users/anduser/Documents/GB/gb-test/src/components/articlePlaceholder/index.js",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 6,
+          "column": 2
+        },
+        "end": {
+          "line": 16,
+          "column": 4
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "ArticlePlaceholder",
+        "decl": {
+          "start": {
+            "line": 5,
+            "column": 24
+          },
+          "end": {
+            "line": 5,
+            "column": 42
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 45
+          },
+          "end": {
+            "line": 17,
+            "column": 1
+          }
+        },
+        "line": 5
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 0
+    },
+    "f": {
+      "0": 0
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "c2dc34e304ad19e6d535c23dcfd4f408755e20f0"
+  },
+  "/Users/anduser/Documents/GB/gb-test/src/utils/formatDate.js": {
+    "path": "/Users/anduser/Documents/GB/gb-test/src/utils/formatDate.js",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 1,
+          "column": 16
+        },
+        "end": {
+          "line": 1,
+          "column": 35
+        }
+      },
+      "1": {
+        "start": {
+          "line": 13,
+          "column": 26
+        },
+        "end": {
+          "line": 13,
+          "column": 53
+        }
+      },
+      "2": {
+        "start": {
+          "line": 13,
+          "column": 34
+        },
+        "end": {
+          "line": 13,
+          "column": 53
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 13,
+            "column": 26
+          },
+          "end": {
+            "line": 13,
+            "column": 27
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 13,
+            "column": 34
+          },
+          "end": {
+            "line": 13,
+            "column": 53
+          }
+        },
+        "line": 13
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 5,
+      "1": 5,
+      "2": 60
+    },
+    "f": {
+      "0": 60
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "93768c2c7b8404dbe075a2c903b15b49377cbeb4"
+  },
+  "/Users/anduser/Documents/GB/gb-test/src/components/article/index.js": {
+    "path": "/Users/anduser/Documents/GB/gb-test/src/components/article/index.js",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 8,
+          "column": 15
+        },
+        "end": {
+          "line": 8,
+          "column": 84
+        }
+      },
+      "1": {
+        "start": {
+          "line": 8,
+          "column": 29
+        },
+        "end": {
+          "line": 8,
+          "column": 59
+        }
+      },
+      "2": {
+        "start": {
+          "line": 9,
+          "column": 21
+        },
+        "end": {
+          "line": 9,
+          "column": 37
+        }
+      },
+      "3": {
+        "start": {
+          "line": 11,
+          "column": 2
+        },
+        "end": {
+          "line": 13,
+          "column": 3
+        }
+      },
+      "4": {
+        "start": {
+          "line": 12,
+          "column": 4
+        },
+        "end": {
+          "line": 12,
+          "column": 34
+        }
+      },
+      "5": {
+        "start": {
+          "line": 15,
+          "column": 54
+        },
+        "end": {
+          "line": 15,
+          "column": 61
+        }
+      },
+      "6": {
+        "start": {
+          "line": 17,
+          "column": 2
+        },
+        "end": {
+          "line": 29,
+          "column": 4
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "Article",
+        "decl": {
+          "start": {
+            "line": 7,
+            "column": 24
+          },
+          "end": {
+            "line": 7,
+            "column": 31
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 45
+          },
+          "end": {
+            "line": 30,
+            "column": 1
+          }
+        },
+        "line": 7
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 8,
+            "column": 23
+          },
+          "end": {
+            "line": 8,
+            "column": 24
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 8,
+            "column": 29
+          },
+          "end": {
+            "line": 8,
+            "column": 59
+          }
+        },
+        "line": 8
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 11,
+            "column": 2
+          },
+          "end": {
+            "line": 13,
+            "column": 3
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 11,
+              "column": 2
+            },
+            "end": {
+              "line": 13,
+              "column": 3
+            }
+          },
+          {
+            "start": {
+              "line": 11,
+              "column": 2
+            },
+            "end": {
+              "line": 13,
+              "column": 3
+            }
+          }
+        ],
+        "line": 11
+      }
+    },
+    "s": {
+      "0": 60,
+      "1": 60,
+      "2": 60,
+      "3": 60,
+      "4": 0,
+      "5": 60,
+      "6": 60
+    },
+    "f": {
+      "0": 60,
+      "1": 60
+    },
+    "b": {
+      "0": [
+        0,
+        60
+      ]
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "67dfa860da0813dfa3cec724fd7fedaa2403392b"
+  },
+  "/Users/anduser/Documents/GB/gb-test/src/components/articlesList/index.js": {
+    "path": "/Users/anduser/Documents/GB/gb-test/src/components/articlesList/index.js",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 9,
+          "column": 4
+        },
+        "end": {
+          "line": 9,
+          "column": 41
+        }
+      },
+      "1": {
+        "start": {
+          "line": 10,
+          "column": 4
+        },
+        "end": {
+          "line": 10,
+          "column": 29
+        }
+      },
+      "2": {
+        "start": {
+          "line": 14,
+          "column": 4
+        },
+        "end": {
+          "line": 19,
+          "column": 5
+        }
+      },
+      "3": {
+        "start": {
+          "line": 23,
+          "column": 25
+        },
+        "end": {
+          "line": 23,
+          "column": 35
+        }
+      },
+      "4": {
+        "start": {
+          "line": 24,
+          "column": 4
+        },
+        "end": {
+          "line": 24,
+          "column": 26
+        }
+      },
+      "5": {
+        "start": {
+          "line": 26,
+          "column": 4
+        },
+        "end": {
+          "line": 30,
+          "column": 5
+        }
+      },
+      "6": {
+        "start": {
+          "line": 34,
+          "column": 24
+        },
+        "end": {
+          "line": 36,
+          "column": 2
+        }
+      },
+      "7": {
+        "start": {
+          "line": 34,
+          "column": 34
+        },
+        "end": {
+          "line": 36,
+          "column": 1
+        }
+      },
+      "8": {
+        "start": {
+          "line": 38,
+          "column": 27
+        },
+        "end": {
+          "line": 40,
+          "column": 1
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 8,
+            "column": 2
+          },
+          "end": {
+            "line": 8,
+            "column": 3
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 8,
+            "column": 22
+          },
+          "end": {
+            "line": 11,
+            "column": 3
+          }
+        },
+        "line": 8
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 13,
+            "column": 2
+          },
+          "end": {
+            "line": 13,
+            "column": 3
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 13,
+            "column": 25
+          },
+          "end": {
+            "line": 20,
+            "column": 3
+          }
+        },
+        "line": 13
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 22,
+            "column": 2
+          },
+          "end": {
+            "line": 22,
+            "column": 3
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 22,
+            "column": 11
+          },
+          "end": {
+            "line": 31,
+            "column": 3
+          }
+        },
+        "line": 22
+      },
+      "3": {
+        "name": "(anonymous_3)",
+        "decl": {
+          "start": {
+            "line": 34,
+            "column": 24
+          },
+          "end": {
+            "line": 34,
+            "column": 25
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 34,
+            "column": 34
+          },
+          "end": {
+            "line": 36,
+            "column": 1
+          }
+        },
+        "line": 34
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 5,
+      "1": 5,
+      "2": 60,
+      "3": 16,
+      "4": 16,
+      "5": 16,
+      "6": 5,
+      "7": 18,
+      "8": 5
+    },
+    "f": {
+      "0": 5,
+      "1": 60,
+      "2": 16,
+      "3": 18
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "477fe5f1da2f1c18e5a05c993443bcaaf697da64"
+  },
+  "/Users/anduser/Documents/GB/gb-test/src/components/header/index.js": {
+    "path": "/Users/anduser/Documents/GB/gb-test/src/components/header/index.js",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 7,
+          "column": 2
+        },
+        "end": {
+          "line": 19,
+          "column": 3
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "Header",
+        "decl": {
+          "start": {
+            "line": 6,
+            "column": 24
+          },
+          "end": {
+            "line": 6,
+            "column": 30
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 33
+          },
+          "end": {
+            "line": 20,
+            "column": 1
+          }
+        },
+        "line": 6
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 10
+    },
+    "f": {
+      "0": 10
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "e7cf4ffdaeb138d3b3505465db62711ea2292fb3"
+  },
+  "/Users/anduser/Documents/GB/gb-test/src/store/user/actions.js": {
+    "path": "/Users/anduser/Documents/GB/gb-test/src/store/user/actions.js",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 3,
+          "column": 23
+        },
+        "end": {
+          "line": 8,
+          "column": 2
+        }
+      },
+      "1": {
+        "start": {
+          "line": 3,
+          "column": 34
+        },
+        "end": {
+          "line": 8,
+          "column": 1
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 3,
+            "column": 23
+          },
+          "end": {
+            "line": 3,
+            "column": 24
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 34
+          },
+          "end": {
+            "line": 8,
+            "column": 1
+          }
+        },
+        "line": 3
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 5,
+      "1": 0
+    },
+    "f": {
+      "0": 0
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "aa6b3a3ca04077a98e978e344e63987748bd2a80"
+  },
+  "/Users/anduser/Documents/GB/gb-test/src/utils/hooks.js": {
+    "path": "/Users/anduser/Documents/GB/gb-test/src/utils/hooks.js",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 4,
+          "column": 14
+        },
+        "end": {
+          "line": 4,
+          "column": 22
+        }
+      },
+      "1": {
+        "start": {
+          "line": 5,
+          "column": 2
+        },
+        "end": {
+          "line": 7,
+          "column": 14
+        }
+      },
+      "2": {
+        "start": {
+          "line": 6,
+          "column": 4
+        },
+        "end": {
+          "line": 6,
+          "column": 24
+        }
+      },
+      "3": {
+        "start": {
+          "line": 9,
+          "column": 2
+        },
+        "end": {
+          "line": 9,
+          "column": 21
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "usePrevious",
+        "decl": {
+          "start": {
+            "line": 3,
+            "column": 16
+          },
+          "end": {
+            "line": 3,
+            "column": 27
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 35
+          },
+          "end": {
+            "line": 10,
+            "column": 1
+          }
+        },
+        "line": 3
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 5,
+            "column": 12
+          },
+          "end": {
+            "line": 5,
+            "column": 13
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 18
+          },
+          "end": {
+            "line": 7,
+            "column": 3
+          }
+        },
+        "line": 5
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 8,
+      "1": 8,
+      "2": 4,
+      "3": 8
+    },
+    "f": {
+      "0": 8,
+      "1": 4
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "f46d760d25bc0a3dc1f25e1f43b1769aad1409dd"
+  },
+  "/Users/anduser/Documents/GB/gb-test/src/components/user/toast.js": {
+    "path": "/Users/anduser/Documents/GB/gb-test/src/components/user/toast.js",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 10,
+          "column": 19
+        },
+        "end": {
+          "line": 10,
+          "column": 36
+        }
+      },
+      "1": {
+        "start": {
+          "line": 12,
+          "column": 2
+        },
+        "end": {
+          "line": 23,
+          "column": 31
+        }
+      },
+      "2": {
+        "start": {
+          "line": 14,
+          "column": 4
+        },
+        "end": {
+          "line": 20,
+          "column": 5
+        }
+      },
+      "3": {
+        "start": {
+          "line": 16,
+          "column": 6
+        },
+        "end": {
+          "line": 18,
+          "column": 15
+        }
+      },
+      "4": {
+        "start": {
+          "line": 17,
+          "column": 8
+        },
+        "end": {
+          "line": 17,
+          "column": 17
+        }
+      },
+      "5": {
+        "start": {
+          "line": 22,
+          "column": 4
+        },
+        "end": {
+          "line": 22,
+          "column": 39
+        }
+      },
+      "6": {
+        "start": {
+          "line": 22,
+          "column": 17
+        },
+        "end": {
+          "line": 22,
+          "column": 38
+        }
+      },
+      "7": {
+        "start": {
+          "line": 25,
+          "column": 2
+        },
+        "end": {
+          "line": 27,
+          "column": 3
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "Toast",
+        "decl": {
+          "start": {
+            "line": 6,
+            "column": 24
+          },
+          "end": {
+            "line": 6,
+            "column": 29
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 3
+          },
+          "end": {
+            "line": 28,
+            "column": 1
+          }
+        },
+        "line": 9
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 12,
+            "column": 12
+          },
+          "end": {
+            "line": 12,
+            "column": 13
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 12,
+            "column": 18
+          },
+          "end": {
+            "line": 23,
+            "column": 3
+          }
+        },
+        "line": 12
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 16,
+            "column": 27
+          },
+          "end": {
+            "line": 16,
+            "column": 28
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 16,
+            "column": 33
+          },
+          "end": {
+            "line": 18,
+            "column": 7
+          }
+        },
+        "line": 16
+      },
+      "3": {
+        "name": "(anonymous_3)",
+        "decl": {
+          "start": {
+            "line": 22,
+            "column": 11
+          },
+          "end": {
+            "line": 22,
+            "column": 12
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 22,
+            "column": 17
+          },
+          "end": {
+            "line": 22,
+            "column": 38
+          }
+        },
+        "line": 22
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 14,
+            "column": 4
+          },
+          "end": {
+            "line": 20,
+            "column": 5
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 14,
+              "column": 4
+            },
+            "end": {
+              "line": 20,
+              "column": 5
+            }
+          },
+          {
+            "start": {
+              "line": 14,
+              "column": 4
+            },
+            "end": {
+              "line": 20,
+              "column": 5
+            }
+          }
+        ],
+        "line": 14
+      },
+      "1": {
+        "loc": {
+          "start": {
+            "line": 14,
+            "column": 8
+          },
+          "end": {
+            "line": 14,
+            "column": 25
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 14,
+              "column": 8
+            },
+            "end": {
+              "line": 14,
+              "column": 17
+            }
+          },
+          {
+            "start": {
+              "line": 14,
+              "column": 21
+            },
+            "end": {
+              "line": 14,
+              "column": 25
+            }
+          }
+        ],
+        "line": 14
+      },
+      "2": {
+        "loc": {
+          "start": {
+            "line": 25,
+            "column": 9
+          },
+          "end": {
+            "line": 27,
+            "column": 3
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 25,
+              "column": 9
+            },
+            "end": {
+              "line": 25,
+              "column": 13
+            }
+          },
+          {
+            "start": {
+              "line": 26,
+              "column": 4
+            },
+            "end": {
+              "line": 26,
+              "column": 58
+            }
+          }
+        ],
+        "line": 25
+      }
+    },
+    "s": {
+      "0": 4,
+      "1": 4,
+      "2": 2,
+      "3": 0,
+      "4": 0,
+      "5": 2,
+      "6": 0,
+      "7": 4
+    },
+    "f": {
+      "0": 4,
+      "1": 2,
+      "2": 0,
+      "3": 0
+    },
+    "b": {
+      "0": [
+        0,
+        2
+      ],
+      "1": [
+        2,
+        2
+      ],
+      "2": [
+        4,
+        0
+      ]
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "7af55bbc2765d35b32ab73e431388ba86e8e6384"
+  },
+  "/Users/anduser/Documents/GB/gb-test/src/components/user/index.js": {
+    "path": "/Users/anduser/Documents/GB/gb-test/src/components/user/index.js",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 10,
+          "column": 15
+        },
+        "end": {
+          "line": 10,
+          "column": 52
+        }
+      },
+      "1": {
+        "start": {
+          "line": 10,
+          "column": 36
+        },
+        "end": {
+          "line": 10,
+          "column": 51
+        }
+      },
+      "2": {
+        "start": {
+          "line": 11,
+          "column": 19
+        },
+        "end": {
+          "line": 11,
+          "column": 36
+        }
+      },
+      "3": {
+        "start": {
+          "line": 12,
+          "column": 28
+        },
+        "end": {
+          "line": 12,
+          "column": 42
+        }
+      },
+      "4": {
+        "start": {
+          "line": 13,
+          "column": 26
+        },
+        "end": {
+          "line": 13,
+          "column": 41
+        }
+      },
+      "5": {
+        "start": {
+          "line": 14,
+          "column": 19
+        },
+        "end": {
+          "line": 14,
+          "column": 32
+        }
+      },
+      "6": {
+        "start": {
+          "line": 16,
+          "column": 28
+        },
+        "end": {
+          "line": 18,
+          "column": 8
+        }
+      },
+      "7": {
+        "start": {
+          "line": 17,
+          "column": 4
+        },
+        "end": {
+          "line": 17,
+          "column": 19
+        }
+      },
+      "8": {
+        "start": {
+          "line": 20,
+          "column": 23
+        },
+        "end": {
+          "line": 23,
+          "column": 8
+        }
+      },
+      "9": {
+        "start": {
+          "line": 21,
+          "column": 4
+        },
+        "end": {
+          "line": 21,
+          "column": 19
+        }
+      },
+      "10": {
+        "start": {
+          "line": 22,
+          "column": 4
+        },
+        "end": {
+          "line": 22,
+          "column": 29
+        }
+      },
+      "11": {
+        "start": {
+          "line": 25,
+          "column": 21
+        },
+        "end": {
+          "line": 28,
+          "column": 23
+        }
+      },
+      "12": {
+        "start": {
+          "line": 26,
+          "column": 4
+        },
+        "end": {
+          "line": 26,
+          "column": 23
+        }
+      },
+      "13": {
+        "start": {
+          "line": 27,
+          "column": 4
+        },
+        "end": {
+          "line": 27,
+          "column": 29
+        }
+      },
+      "14": {
+        "start": {
+          "line": 30,
+          "column": 2
+        },
+        "end": {
+          "line": 34,
+          "column": 23
+        }
+      },
+      "15": {
+        "start": {
+          "line": 31,
+          "column": 4
+        },
+        "end": {
+          "line": 33,
+          "column": 5
+        }
+      },
+      "16": {
+        "start": {
+          "line": 32,
+          "column": 6
+        },
+        "end": {
+          "line": 32,
+          "column": 20
+        }
+      },
+      "17": {
+        "start": {
+          "line": 36,
+          "column": 2
+        },
+        "end": {
+          "line": 44,
+          "column": 3
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "UserInfo",
+        "decl": {
+          "start": {
+            "line": 9,
+            "column": 24
+          },
+          "end": {
+            "line": 9,
+            "column": 32
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 35
+          },
+          "end": {
+            "line": 45,
+            "column": 1
+          }
+        },
+        "line": 9
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 10,
+            "column": 27
+          },
+          "end": {
+            "line": 10,
+            "column": 28
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 36
+          },
+          "end": {
+            "line": 10,
+            "column": 51
+          }
+        },
+        "line": 10
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 16,
+            "column": 40
+          },
+          "end": {
+            "line": 16,
+            "column": 41
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 16,
+            "column": 46
+          },
+          "end": {
+            "line": 18,
+            "column": 3
+          }
+        },
+        "line": 16
+      },
+      "3": {
+        "name": "(anonymous_3)",
+        "decl": {
+          "start": {
+            "line": 20,
+            "column": 35
+          },
+          "end": {
+            "line": 20,
+            "column": 36
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 20,
+            "column": 42
+          },
+          "end": {
+            "line": 23,
+            "column": 3
+          }
+        },
+        "line": 20
+      },
+      "4": {
+        "name": "(anonymous_4)",
+        "decl": {
+          "start": {
+            "line": 25,
+            "column": 33
+          },
+          "end": {
+            "line": 25,
+            "column": 34
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 25,
+            "column": 40
+          },
+          "end": {
+            "line": 28,
+            "column": 3
+          }
+        },
+        "line": 25
+      },
+      "5": {
+        "name": "(anonymous_5)",
+        "decl": {
+          "start": {
+            "line": 30,
+            "column": 12
+          },
+          "end": {
+            "line": 30,
+            "column": 13
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 30,
+            "column": 18
+          },
+          "end": {
+            "line": 34,
+            "column": 3
+          }
+        },
+        "line": 30
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 31,
+            "column": 4
+          },
+          "end": {
+            "line": 33,
+            "column": 5
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 31,
+              "column": 4
+            },
+            "end": {
+              "line": 33,
+              "column": 5
+            }
+          },
+          {
+            "start": {
+              "line": 31,
+              "column": 4
+            },
+            "end": {
+              "line": 33,
+              "column": 5
+            }
+          }
+        ],
+        "line": 31
+      },
+      "1": {
+        "loc": {
+          "start": {
+            "line": 31,
+            "column": 8
+          },
+          "end": {
+            "line": 31,
+            "column": 37
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 31,
+              "column": 8
+            },
+            "end": {
+              "line": 31,
+              "column": 16
+            }
+          },
+          {
+            "start": {
+              "line": 31,
+              "column": 20
+            },
+            "end": {
+              "line": 31,
+              "column": 37
+            }
+          }
+        ],
+        "line": 31
+      }
+    },
+    "s": {
+      "0": 4,
+      "1": 8,
+      "2": 4,
+      "3": 4,
+      "4": 4,
+      "5": 4,
+      "6": 4,
+      "7": 0,
+      "8": 4,
+      "9": 0,
+      "10": 0,
+      "11": 4,
+      "12": 0,
+      "13": 0,
+      "14": 4,
+      "15": 2,
+      "16": 0,
+      "17": 4
+    },
+    "f": {
+      "0": 4,
+      "1": 8,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 2
+    },
+    "b": {
+      "0": [
+        0,
+        2
+      ],
+      "1": [
+        2,
+        0
+      ]
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "c5048760d02954fe01b7714746cc2992cbf955d0"
+  },
+  "/Users/anduser/Documents/GB/gb-test/src/components/networkMessage/index.js": {
+    "path": "/Users/anduser/Documents/GB/gb-test/src/components/networkMessage/index.js",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 6,
+          "column": 2
+        },
+        "end": {
+          "line": 14,
+          "column": 4
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "NetworkMessage",
+        "decl": {
+          "start": {
+            "line": 5,
+            "column": 24
+          },
+          "end": {
+            "line": 5,
+            "column": 38
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 42
+          },
+          "end": {
+            "line": 15,
+            "column": 1
+          }
+        },
+        "line": 5
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 10
+    },
+    "f": {
+      "0": 10
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "79eec0069b33f6e8d56f8336e031bb26cabf0399"
+  },
+  "/Users/anduser/Documents/GB/gb-test/src/App.js": {
+    "path": "/Users/anduser/Documents/GB/gb-test/src/App.js",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 13,
+          "column": 2
+        },
+        "end": {
+          "line": 30,
+          "column": 4
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "App",
+        "decl": {
+          "start": {
+            "line": 12,
+            "column": 9
+          },
+          "end": {
+            "line": 12,
+            "column": 12
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 12,
+            "column": 15
+          },
+          "end": {
+            "line": 31,
+            "column": 1
+          }
+        },
+        "line": 12
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 10
+    },
+    "f": {
+      "0": 10
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "23fa9630d3adb9a2ca93a97b0e85d1d2ffbdbd88"
+  },
+  "/Users/anduser/Documents/GB/gb-test/src/reportWebVitals.js": {
+    "path": "/Users/anduser/Documents/GB/gb-test/src/reportWebVitals.js",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 1,
+          "column": 24
+        },
+        "end": {
+          "line": 11,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 2,
+          "column": 2
+        },
+        "end": {
+          "line": 10,
+          "column": 3
+        }
+      },
+      "2": {
+        "start": {
+          "line": 3,
+          "column": 4
+        },
+        "end": {
+          "line": 9,
+          "column": 7
+        }
+      },
+      "3": {
+        "start": {
+          "line": 4,
+          "column": 6
+        },
+        "end": {
+          "line": 4,
+          "column": 26
+        }
+      },
+      "4": {
+        "start": {
+          "line": 5,
+          "column": 6
+        },
+        "end": {
+          "line": 5,
+          "column": 26
+        }
+      },
+      "5": {
+        "start": {
+          "line": 6,
+          "column": 6
+        },
+        "end": {
+          "line": 6,
+          "column": 26
+        }
+      },
+      "6": {
+        "start": {
+          "line": 7,
+          "column": 6
+        },
+        "end": {
+          "line": 7,
+          "column": 26
+        }
+      },
+      "7": {
+        "start": {
+          "line": 8,
+          "column": 6
+        },
+        "end": {
+          "line": 8,
+          "column": 27
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 1,
+            "column": 24
+          },
+          "end": {
+            "line": 1,
+            "column": 25
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 39
+          },
+          "end": {
+            "line": 11,
+            "column": 1
+          }
+        },
+        "line": 1
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 3,
+            "column": 30
+          },
+          "end": {
+            "line": 3,
+            "column": 31
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 79
+          },
+          "end": {
+            "line": 9,
+            "column": 5
+          }
+        },
+        "line": 3
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 2
+          },
+          "end": {
+            "line": 10,
+            "column": 3
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 2,
+              "column": 2
+            },
+            "end": {
+              "line": 10,
+              "column": 3
+            }
+          },
+          {
+            "start": {
+              "line": 2,
+              "column": 2
+            },
+            "end": {
+              "line": 10,
+              "column": 3
+            }
+          }
+        ],
+        "line": 2
+      },
+      "1": {
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 6
+          },
+          "end": {
+            "line": 2,
+            "column": 52
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 2,
+              "column": 6
+            },
+            "end": {
+              "line": 2,
+              "column": 17
+            }
+          },
+          {
+            "start": {
+              "line": 2,
+              "column": 21
+            },
+            "end": {
+              "line": 2,
+              "column": 52
+            }
+          }
+        ],
+        "line": 2
+      }
+    },
+    "s": {
+      "0": 5,
+      "1": 5,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0
+    },
+    "f": {
+      "0": 5,
+      "1": 0
+    },
+    "b": {
+      "0": [
+        0,
+        5
+      ],
+      "1": [
+        5,
+        0
+      ]
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "51d1b69df6d54eb8a40938fa0b1601df1d57175f"
+  },
+  "/Users/anduser/Documents/GB/gb-test/src/index.js": {
+    "path": "/Users/anduser/Documents/GB/gb-test/src/index.js",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 7,
+          "column": 0
+        },
+        "end": {
+          "line": 12,
+          "column": 2
+        }
+      },
+      "1": {
+        "start": {
+          "line": 17,
+          "column": 0
+        },
+        "end": {
+          "line": 17,
+          "column": 18
+        }
+      }
+    },
+    "fnMap": {},
+    "branchMap": {},
+    "s": {
+      "0": 5,
+      "1": 5
+    },
+    "f": {},
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "8b8e90f4b0b9e1fb35a335a87b32e73f8f172034"
+  }
+}

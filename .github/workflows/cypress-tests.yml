@@ -1,13 +1,17 @@
-name: E2E on Chrome
+name: Cypress tests
 on: [push]
 jobs:
   cypress-run:
+    name: Cypress run
     runs-on: ubuntu-16.04
-    # let's make sure our tests pass on Chrome browser
-    name: E2E on Chrome
     steps:
-      - uses: actions/checkout@v2
-      - uses: cypress-io/github-action@v2
+      - name: Checkout
+        uses: actions/checkout@v1
+
+      - name: Cypress run
+        uses: cypress-io/github-action@v2
         with:
-          browser: chrome
-          start: npm run start
+          record: true
+        env:
+          # pass the Dashboard record key as an environment variable
+          CYPRESS_RECORD_KEY: 641b87b1-33e9-427d-95f7-62b63f2cebfb
