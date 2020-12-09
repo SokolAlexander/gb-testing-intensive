@@ -8,6 +8,7 @@ export default function Toast({
   onHide,
 }) {
   const prevShow = usePrevious(show);
+  console.log(prevShow, show);
 
   useEffect(() => {
     let timeout;
@@ -23,6 +24,6 @@ export default function Toast({
   }, [prevShow, show, onHide]);
 
   return show && (
-    <div className="toast">Name Successfully Updated</div>
+    <div className="toast" data-testid="toast">Name Successfully Updated</div>
   )
 }

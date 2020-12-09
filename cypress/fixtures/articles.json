@@ -1,0 +1,26 @@
+[
+  {
+    "featured": false,
+    "id": "5fcfc869d4ee52001bfa80a1",
+    "imageUrl": "https://www.teslarati.com/wp-content/uploads/2020/12/Starship-Boca-Chica-120820-SpaceX-SN8-webcast-6-c.jpg",
+    "launches": [],
+    "newsSite": "Teslarati",
+    "publishedAt": "2020-12-08T23:19:16.000Z",
+    "summary": "Update: Starship serial number 8 (SN8) aborted its high-altitude launch debut at the last second, ending today’s attempt for SpaceX. Depending on...",
+    "title": "SpaceX aborts high-altitude Starship launch at the last second",
+    "updatedAt": "2020-12-08T23:19:27.002Z",
+    "url": "https://www.teslarati.com/"
+  },
+  {
+    "featured": false,
+    "id": "5fcfe8edd4ee52001bfa80a4",
+    "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2017/07/34792021660_9c0926f1e5_k.jpg",
+    "launches": [],
+    "newsSite": "Arstechnica",
+    "publishedAt": "2020-12-08T20:50:02.000Z",
+    "summary": "This will probably end up making a splash.",
+    "title": "Vice President Mike Pence is set to name a cadre of Artemis astronauts",
+    "updatedAt": "2020-12-08T21:18:27.268Z",
+    "url": "https://arstechnica.com/science/"
+  }
+]

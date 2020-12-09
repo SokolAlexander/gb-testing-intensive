@@ -9,22 +9,23 @@ Object {
         class="header"
       >
         header
-        <ul>
-          <li>
-            <a
-              href="/"
-            >
-              Home
-            </a>
-          </li>
-          <li>
-            <a
-              href="/user"
-            >
-              User
-            </a>
-          </li>
-        </ul>
+        <span
+          class="counter"
+        >
+          0
+        </span>
+        <button>
+          increase
+        </button>
+        <button>
+          decrease
+        </button>
+        <span>
+          message1
+        </span>
+        <span>
+          message2
+        </span>
       </header>
       <article />
     </div>
@@ -34,22 +35,23 @@ Object {
       class="header"
     >
       header
-      <ul>
-        <li>
-          <a
-            href="/"
-          >
-            Home
-          </a>
-        </li>
-        <li>
-          <a
-            href="/user"
-          >
-            User
-          </a>
-        </li>
-      </ul>
+      <span
+        class="counter"
+      >
+        0
+      </span>
+      <button>
+        increase
+      </button>
+      <button>
+        decrease
+      </button>
+      <span>
+        message1
+      </span>
+      <span>
+        message2
+      </span>
     </header>
     <article />
   </div>,
@@ -116,22 +118,23 @@ Object {
         class="header"
       >
         header
-        <ul>
-          <li>
-            <a
-              href="/"
-            >
-              Home
-            </a>
-          </li>
-          <li>
-            <a
-              href="/user"
-            >
-              User
-            </a>
-          </li>
-        </ul>
+        <span
+          class="counter"
+        >
+          0
+        </span>
+        <button>
+          increase
+        </button>
+        <button>
+          decrease
+        </button>
+        <span>
+          message1
+        </span>
+        <span>
+          message2
+        </span>
       </header>
       <article />
     </div>
@@ -141,22 +144,23 @@ Object {
       class="header"
     >
       header
-      <ul>
-        <li>
-          <a
-            href="/"
-          >
-            Home
-          </a>
-        </li>
-        <li>
-          <a
-            href="/user"
-          >
-            User
-          </a>
-        </li>
-      </ul>
+      <span
+        class="counter"
+      >
+        0
+      </span>
+      <button>
+        increase
+      </button>
+      <button>
+        decrease
+      </button>
+      <span>
+        message1
+      </span>
+      <span>
+        message2
+      </span>
     </header>
     <article />
   </div>,

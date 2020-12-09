@@ -1,0 +1,7 @@
+.user-name {
+  position: fixed;
+  right: 0;
+  top: 0;
+  padding: 20px;
+  font-size: large;
+}

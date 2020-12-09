@@ -5,7 +5,9 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import store from './store';
 import ArticlesList from './components/articlesList';
 import Header from './components/header';
-import UserInfo from './components/user';
+import UserInfo from "./components/user";
+import UserName from './components/userInfo';
+
 import './App.css';
 import NetworkMessage from './components/networkMessage';
 
@@ -15,15 +17,16 @@ function App() {
       <NetworkMessage />
       <Provider store={store}>
         <Router>
-        <Header />
-        <Switch>
-          <Route exact path="/">
-            <ArticlesList />
-          </Route>
-          <Route path="/user">
-            <UserInfo />
-          </Route>
-        </Switch>
+          <UserName />
+          <Header />
+          <Switch>
+            <Route exact path="/">
+              <ArticlesList />
+            </Route>
+            <Route path="/user">
+              <UserInfo />
+            </Route>
+          </Switch>
         </Router>
       </Provider>
     </>

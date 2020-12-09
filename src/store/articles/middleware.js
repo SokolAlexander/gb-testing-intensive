@@ -8,6 +8,7 @@ export const getArticles = () => async (dispatch) => {
     const articles = await res.json();
     dispatch(getArticlesSuccess(articles));
   } catch (e) {
+    console.log(e, 'failure-=-=-=--=--=-');
     dispatch(getArticlesFailure(e))
   }
 }

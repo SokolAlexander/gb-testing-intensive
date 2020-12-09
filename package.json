@@ -18,7 +18,8 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
-    "start": "react-scripts -r @cypress/instrument-cra start",
+    "start": "react-scripts start",
+    "start:e2e": "react-scripts -r @cypress/instrument-cra start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "test:once": "react-scripts test --watchAll=false",
@@ -28,7 +29,8 @@
   "eslintConfig": {
     "extends": [
       "react-app",
-      "react-app/jest"
+      "react-app/jest",
+      "plugin:cypress/recommended"
     ]
   },
   "browserslist": {
@@ -48,6 +50,7 @@
     "@cypress/instrument-cra": "^1.4.0",
     "@testing-library/react-hooks": "^3.4.2",
     "cypress": "^6.0.0",
+    "eslint-plugin-cypress": "^2.11.2",
     "husky": "^4.3.0",
     "istanbul": "^0.4.5",
     "jest-fetch-mock": "^3.0.3",
