@@ -3,10 +3,10 @@ import { connect } from 'react-redux';
 
 import { getArticles } from '../../store/articles/middleware';
 import Article from '../article';
+import { REQUEST_STATUS } from '../../constants';
 
 class ArticlesList extends React.Component {
   componentDidMount() {
-    console.log('---------', this.props);
     this.props.getArticles();
   }
 
@@ -20,19 +20,28 @@ class ArticlesList extends React.Component {
   }
 
   render() {
-    const { articles } = this.props;
+    const { articles, requestStatus } = this.props;
     console.log(articles);
 
-    return (
-      <article>
-        {articles.map(this.renderArticle)}
-      </article>
-    )
+    if (requestStatus === REQUEST_STATUS.LOADING) {
+      return (
+        <span>Loading...</span>
+      );
+    }
+
+    if (requestStatus === REQUEST_STATUS.FAILURE) {
+      return (
+        <span>Error getting articles</span>
+      );
+    }
+      
+    return <article>{articles.map(this.renderArticle)}</article>;
   }
 }
 
-const mapStateToProps = state => ({
-  articles: state.articles.articles
+const mapStateToProps = (state) => ({
+  articles: state.articles.articles,
+  requestStatus: state.articles.request.status
 });
 
 const mapDispatchToProps = {

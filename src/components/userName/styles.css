@@ -1,0 +1,10 @@
+.userName {
+  position: fixed;
+  /* width: 150px; */
+  border: 2px solid black;
+  padding: 25px;
+  background-color: aliceblue;
+  color: black;
+  right: 0;
+  top: 0;
+}

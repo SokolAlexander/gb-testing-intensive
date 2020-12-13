@@ -2,12 +2,26 @@ header.header {
   padding: 15px;
   padding-top: 20px;
   padding-bottom: 25px;
-/* margin: 0; */
+  margin: 0;
   font-size: large;
   color: whitesmoke;
   background-color: darkslategray;
+  display: block;
+  min-width: 100%;
 }
 
 ul {
   margin-bottom: 0;
+  list-style: none;
+  display: flex;
+  min-width: 40%;
+  justify-content: space-evenly;
+}
+
+li>a {
+  color: brown;
+}
+
+a:visited {
+  color: lightsalmon;
 }
