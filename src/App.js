@@ -7,7 +7,6 @@ import ArticlesList from './components/articlesList';
 import Header from './components/header';
 import UserInfo from './components/user';
 import NetworkMessage from './components/networkMessage';
-import UserName from './components/userName/userName';
 import './App.css';
 
 function App() {
@@ -15,7 +14,6 @@ function App() {
     <>
       <NetworkMessage />
       <Provider store={store}>
-        <UserName />
         <Router>
         <Header />
         <Switch>
