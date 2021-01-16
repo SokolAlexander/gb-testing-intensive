@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`articles reducer tests matches snapshot after getArticlesRequest 1`] = `
+Object {
+  "articles": Array [],
+  "request": Object {
+    "error": null,
+    "status": 1,
+  },
+}
+`;

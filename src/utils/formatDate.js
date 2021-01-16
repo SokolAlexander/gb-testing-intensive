@@ -10,4 +10,10 @@ const msInDay = 1000 * 60 * 60 * 24;
 //   return `${Math.floor(days)} days ago`;
 // }
 
-export const formatDate = date => date.toDateString();
+export const formatDate = date => {
+  if (!date) {
+    throw new Error('no Date!');
+  }
+  
+  return date.toDateString();
+}
