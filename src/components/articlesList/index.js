@@ -2,6 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 
 import { getArticles } from '../../store/articles/middleware';
+import { toggleFavourite } from '../../store/articles/actions';
 import Article from '../article';
 import { REQUEST_STATUS } from '../../constants';
 
@@ -12,13 +13,9 @@ class ArticlesList extends React.Component {
       //, 5000);
   }
 
-  renderArticle(article) {
-    return (
-      <Article
-        key={article.id}
-        article={article}
-      />
-    )
+  renderArticle = (article) => {
+    const { toggleFavourite } = this.props;
+    return <Article key={article.id} article={article} onAddToFav={toggleFavourite} />;
   }
 
   render() {
@@ -42,6 +39,7 @@ const mapStateToProps = state => ({
 
 const mapDispatchToProps = {
   getArticles,
+  toggleFavourite,
 }
 
 export default connect(mapStateToProps, mapDispatchToProps)(ArticlesList);

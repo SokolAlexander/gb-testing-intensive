@@ -16,7 +16,6 @@ a:active {
   display: block;
   background-color: black;
   color: wheat;
-  cursor: pointer;
   border: 1px solid whitesmoke;
   padding: 30px;
 }
