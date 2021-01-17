@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 
 import './styles.css';
 import { usePrevious } from '../../utils/hooks';
@@ -23,7 +23,7 @@ export default function Toast({
     return () => clearTimeout(timeout);
   }, [prevShow, show, onHide]);
 
-  return show && (
-    <div className="toast" data-testid="toast">Name Successfully Updated</div>
+  return (
+    <div className={`toast ${!show && ' hidden'}`} data-testid="toast">Name Successfully Updated</div>
   )
 }

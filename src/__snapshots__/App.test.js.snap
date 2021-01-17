@@ -5,53 +5,63 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
+      <div
+        class="user-name"
+      >
+        Hi 
+        
+        !
+      </div>
       <header
         class="header"
       >
-        header
-        <span
-          class="counter"
-        >
-          0
-        </span>
-        <button>
-          increase
-        </button>
-        <button>
-          decrease
-        </button>
-        <span>
-          message1
-        </span>
-        <span>
-          message2
-        </span>
+        <ul>
+          <li>
+            <a
+              href="/"
+            >
+              Main
+            </a>
+          </li>
+          <li>
+            <a
+              href="/user"
+            >
+              User
+            </a>
+          </li>
+        </ul>
       </header>
       <article />
     </div>
   </body>,
   "container": <div>
+    <div
+      class="user-name"
+    >
+      Hi 
+      
+      !
+    </div>
     <header
       class="header"
     >
-      header
-      <span
-        class="counter"
-      >
-        0
-      </span>
-      <button>
-        increase
-      </button>
-      <button>
-        decrease
-      </button>
-      <span>
-        message1
-      </span>
-      <span>
-        message2
-      </span>
+      <ul>
+        <li>
+          <a
+            href="/"
+          >
+            Main
+          </a>
+        </li>
+        <li>
+          <a
+            href="/user"
+          >
+            User
+          </a>
+        </li>
+      </ul>
     </header>
     <article />
   </div>,
@@ -114,53 +124,63 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
+      <div
+        class="user-name"
+      >
+        Hi 
+        
+        !
+      </div>
       <header
         class="header"
       >
-        header
-        <span
-          class="counter"
-        >
-          0
-        </span>
-        <button>
-          increase
-        </button>
-        <button>
-          decrease
-        </button>
-        <span>
-          message1
-        </span>
-        <span>
-          message2
-        </span>
+        <ul>
+          <li>
+            <a
+              href="/"
+            >
+              Main
+            </a>
+          </li>
+          <li>
+            <a
+              href="/user"
+            >
+              User
+            </a>
+          </li>
+        </ul>
       </header>
       <article />
     </div>
   </body>,
   "container": <div>
+    <div
+      class="user-name"
+    >
+      Hi 
+      
+      !
+    </div>
     <header
       class="header"
     >
-      header
-      <span
-        class="counter"
-      >
-        0
-      </span>
-      <button>
-        increase
-      </button>
-      <button>
-        decrease
-      </button>
-      <span>
-        message1
-      </span>
-      <span>
-        message2
-      </span>
+      <ul>
+        <li>
+          <a
+            href="/"
+          >
+            Main
+          </a>
+        </li>
+        <li>
+          <a
+            href="/user"
+          >
+            User
+          </a>
+        </li>
+      </ul>
     </header>
     <article />
   </div>,

@@ -8,9 +8,7 @@ import { REQUEST_STATUS } from '../../constants';
 
 class ArticlesList extends React.Component {
   componentDidMount() {
-    //setTimeout(() => 
-      this.props.getArticles()
-      //, 5000);
+    this.props.getArticles();
   }
 
   renderArticle = (article) => {
