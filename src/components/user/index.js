@@ -18,7 +18,7 @@ export default function UserInfo() {
   }, []);
 
   const handleChange = useCallback((e) => {
-    console.log(e);
+    // console.log(e);
     setValue(e.target.value);
   }, []);
 
